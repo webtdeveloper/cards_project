@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    min-height: 760px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.card{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 30px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card img{
+    height: 50%;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card p{
+    font-size: 1.2em;
+}
+*/
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#mainimg{
+    width: 100%;
+    height: 26%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 75%;
+    text-align: center;
+}
+
+#amountBox{
+    width: 80%;
+    height: 10%;
+    background-color: #8BC6EC;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#leftBox{
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+
+#imgBox img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+#rightBox a{
+    text-decoration: none;
+}
+
+#paymentBtn{
+    width: 80%;
+    height: 9%;
+    font-size: 1em;
+    color: white;
+    background-color: #052b44;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cancelBox a{
+    text-decoration: none;
+    color: rgb(44, 39, 39);
+    font-weight: bold;
+    font-size: large;
+}
